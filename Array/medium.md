@@ -1,3 +1,8 @@
+# Contents
+
+- largest sum subarray
+- majority element
+
 ## Lagest sum subarray problem
 
 ```
@@ -51,7 +56,7 @@
 
 ```
 
-## Check if it is majority or not
+### Check if it is majority or not
 
 ```
     bool isMaj(int a[], int n, int maj){

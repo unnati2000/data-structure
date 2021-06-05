@@ -1,3 +1,5 @@
+- check for subsequence
+
 ## A string is a subseq of other or not
 
 ```

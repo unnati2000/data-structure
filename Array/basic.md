@@ -1,4 +1,11 @@
-## Remove Duplicates from nan Array
+# Contents
+
+- remove duplicates from an array
+- move all negative elements to one side
+- leaders in an array
+- Kth max and kth min
+
+## Remove Duplicates from an Array
 
 ```
 int removeDup (int a[], int n){
@@ -14,7 +21,7 @@ int removeDup (int a[], int n){
 
 ```
 
-## Remove duplicates in O(N)
+## Remove duplicates
 
 ```
     for(int i = 0; i < n; i++){
