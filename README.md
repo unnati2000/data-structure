@@ -17,13 +17,13 @@
   
  ### Arrays:
  * Basic:
-  * remove duplicates from an array
-  * move all negative elements to one side
-  * leaders in an array
-  * Kth max and kth min 
+   * remove duplicates from an array
+   * move all negative elements to one side
+   * leaders in an array
+   * Kth max and kth min 
  * Medium:
-  *  largest sum subarray
-  *  majority element
+   *  largest sum subarray
+   *  majority element
   
 ### Maths:
 * armstrong number
@@ -35,14 +35,24 @@
 * GCD
 * LCM
 * power
- * recursive
- * iterative
+  * recursive
+  * iterative
 * If number is prime or not
 * prime factors
- * naive
- * more efficient
- * most efficient
- * divisor of a number
+  * naive
+  * more efficient
+  * most efficient
+  * divisor of a number
+### Bits manipulation
+* Check if kth bit is set or not
+* Count set bits in a number
+* Check if number is power of 2 or not
+* Odd occuring number
+* wo odd occuring numbers in array
+* Missing no
+* Power set
+
+  
 
 
 
