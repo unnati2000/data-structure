@@ -52,6 +52,4 @@ int checkforsumwithpair(int a[], int n, int sum){
     return 0;
 }
 
-
-
 ```

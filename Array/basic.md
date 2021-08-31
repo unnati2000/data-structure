@@ -8,15 +8,20 @@
 ## Remove Duplicates from an Array
 
 ```
-int removeDup (int a[], int n){
-
-    for(int i = 0; i < n; i++){
-        if(a[i] == a[i+1]){
-            a[i] = a[i+1];
-            n--;
+ int removeDuplicates(vector<int>& nums) {
+        
+        if(nums.size() > 0){
+           int res = 1;
+            for(int i = 1; i < nums.size(); i++){
+                if(nums[i]!=nums[res-1]){
+                    nums[res] = nums[i];
+                    res++;
+                }
+            }
+            return res; 
+        }else{
+            return 0;
         }
-    }
-    return n;
 }
 
 ```
