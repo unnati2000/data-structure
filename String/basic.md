@@ -86,3 +86,27 @@
     cout<<res<<endl;
 
 ```
+
+## String Searching
+```
+  for(int i = 0; i < s.size() - p.size();){
+        int j;
+        
+        for(j = 0; j < p.size(); j++){
+            if(p[j] != s[i+j]){
+                break;
+            }
+        }
+        
+        if(j == p.size()){
+            cout<<i<<" ";
+        }
+        if(j = 0){
+            i = i+1;
+        }else{
+            i = i+j;
+        }
+        
+    }
+
+```
